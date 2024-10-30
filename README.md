@@ -1,4 +1,4 @@
 # SARMSSD
 SARMSSD
 
-SAR Multi-Scale Ship Dataset
+SAR Multi-Scale Ship Detection Dataset
