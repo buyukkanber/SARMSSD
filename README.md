@@ -54,7 +54,7 @@ Training and evaluation the **4 SARMSSD** datasets on YOLO11 algorithm & Compari
 | YOLO11x        | SARMSSD-BM3D    |  640                  | 0.936     | 0.812  | 0.902                | 0.737                     | 56.9               | 
 | YOLO11x        | SARMSSD-SAR-CAM |  640                  | 0.950     | 0.815  | 0.908                | 0.770                     | 56.9               |
 
-**<details open><summary>Data augmentation methods:</summary>**
+**<details open><summary>Data Augmentation Experiments:</summary>**
 
 Mosaic, scale, and flip augmentations aplplied through **SARMSSD-SAR-CAM** dataset trainings to further improve ship detection accuracy.</details>
 
