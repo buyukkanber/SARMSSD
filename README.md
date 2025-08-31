@@ -49,10 +49,10 @@ Training and evaluation the **4 SARMSSD** datasets on YOLO11 algorithm & Compari
 
 | Model                                                                                       | Dataset         | size<br><sup>(pixels) | Precision | Recall | mAP<sup>test<br>0.50 | mAP<sup>test<br>0.50:0.95 | params<br><sup>(M) |
 | --------------------------------------------------------------------------------------------|-----------------|-----------------------|-----------|--------|----------------------|---------------------------|--------------------|
-| YOLO11x        | SARMSSD         |  640                  | 0.935     | 0.829  | 0.909                | 0.764                     | 56.9               | 
-| YOLO11x        | SARMSSD-Median  |  640                  | 0.938     | 0.824  | 0.911                | 0.718                     | 56.9               |
-| YOLO11x        | SARMSSD-BM3D    |  640                  | 0.936     | 0.812  | 0.902                | 0.737                     | 56.9               | 
-| YOLO11x        | SARMSSD-SAR-CAM |  640                  | 0.950     | 0.815  | 0.908                | 0.770                     | 56.9               |
+| [YOLO11x](https://github.com/buyukkanber/SARMSSD/releases/download/v1.0.0/sarmssd_yolo11x.pt)        | SARMSSD         |  640                  | 0.935     | 0.829  | 0.909                | 0.764                     | 56.9               | 
+| [YOLO11x](https://github.com/buyukkanber/SARMSSD/releases/download/v1.0.0/sarmssd-median_yolo11x.pt)        | SARMSSD-Median  |  640                  | 0.938     | 0.824  | 0.911                | 0.718                     | 56.9               |
+| [YOLO11x](https://github.com/buyukkanber/SARMSSD/releases/download/v1.0.0/sarmssd-bm3d_yolo11x.pt)        | SARMSSD-BM3D    |  640                  | 0.936     | 0.812  | 0.902                | 0.737                     | 56.9               | 
+| [YOLO11x](https://github.com/buyukkanber/SARMSSD/releases/download/v1.0.0/sarmssd-sar-cam_yolo11x.pt)        | SARMSSD-SAR-CAM |  640                  | 0.950     | 0.815  | 0.908                | 0.770                     | 56.9               |
 
 **<details open><summary>Data Augmentation Experiments:</summary>**
 
@@ -63,7 +63,7 @@ Mosaic, scale, and flip augmentations aplplied through **SARMSSD-SAR-CAM** datas
 | --------------------------------------------------------------------------------------------|--------------------|-----------|-----------|--------|----------------------|---------------------------|--------------------|
 | YOLO11x       |      scale                 |  640       | 0.924 | 0.881 | 0.942 | 0.739 |56.9               | 
 | YOLO11x       |      flip(lr) left-right   |  640       | 0.944 | 0.839 | 0.919 | 0.772 |56.9               | 
-| YOLO11x    |      mosaic                |  640       | 0.951 | 0.881 | 0.945 | **0.788** |56.9               | 
+| [YOLO11x](https://github.com/buyukkanber/SARMSSD/releases/download/v1.0.0/sarmssd-sar-cam_yolo11x_aug.pt)    |      mosaic                |  640       | 0.951 | 0.881 | 0.945 | **0.788** |56.9               | 
 | YOLO11x       |      mosaic, flip(lr)      |  640       | 0.922 | 0.888 | 0.940 | 0.754 |56.9               | 
 | YOLO11x       |      scale, flip(lr)       |  640       | 0.921 | 0.869 | 0.939 | 0.711 | 56.9              | 
 | YOLO11x       |      mosaic, scale         |  640       | 0.945 | 0.882 | 0.950 | 0.755 |56.9               | 
