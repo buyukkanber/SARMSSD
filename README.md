@@ -24,6 +24,9 @@ This project explores:
 
 **<details close><summary>Data Collection and Processing</summary>**
 
+<img width="1654" height="543" alt="image" src="https://github.com/user-attachments/assets/9a0e6b88-269f-4173-8994-2d2b185a9b51" />
+
+
 The **SARMSSD dataset** was constracted by merging the following publicly available SAR datasets:
 - **[SSDD](https://github.com/TianwenZhang0825/Official-SSDD)**: 1,160 SAR images (obtained from RadarSat-2, TerraSAR-X and Sentinel-1 satellites) with 2,358 ship instances, having resolutions from 300x300 to 500x500 pixels and spatial resolutions ranging from 1m to 15m. This dataset has the PascalVOC annotation format, it has been converted to YOLO annotation format with [voc2yolo.py](https://github.com/buyukkanber/SARMSSD/blob/main/voc2yolo.py)
 - **[HRSID](https://github.com/chaozhong2010/HRSID)**: 5,604 SAR images (obtained from Sentinel-1B, TerraSAR-X, and TanDEM-X satellites) with 16,951 ship instances, featuring a fixed resolution of 800x800 pixels and spatial resolutions between 0.5m and 3m. This dataset has the COCO annotation format, it has been converted to YOLO annotation format with [coco2yolo.py](https://github.com/buyukkanber/SARMSSD/blob/main/coco2yolo.py)
