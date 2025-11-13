@@ -4,7 +4,7 @@ SARMSSD (SAR Multi-Scale Ship Detection) Dataset
 
 This repository provides the implementation of **deep learning-based ship detection in SAR imagery** using the **YOLO11** model, associated with our research paper **"Impact of Data Enhancement Methods on Ship Detection Using YOLO11 in SAR Imagery"** which we present in Machine Intelligence for GeoAnalytics and Remote Sensing (MIGARS 2025) International Conference. The study evaluates the effects of **image denoising** and **data augmentation** techniques on detection performance using a newly constructed dataset, **SARMSSD**, which combines three open-source SAR datasets (**SSDD, HRSID, and SRSDD**).
 
-Accesss our paper --> [**https://doi.org/10.1109/MIGARS67156.2025.11231948**](https://doi.org/10.1109/MIGARS67156.2025.11231948)
+Accesss our paper --> [**https://ieeexplore.ieee.org/document/11231948**](https://ieeexplore.ieee.org/document/11231948)
 
 ## **Dataset Details**
 
