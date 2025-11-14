@@ -78,7 +78,7 @@ All experiments were conducted using the YOLO11-x architecture (56.9M parameters
 
 ## **Citation**
 
-If you make use of this research, please cite this repository.
+If you make use of this research, please cite our paper.
 ```bibtex
 @INPROCEEDINGS{11231948,
   author={Büyükkanber, Furkan and Yanalak, Mustafa and Musaoğlu, Nebiye},
