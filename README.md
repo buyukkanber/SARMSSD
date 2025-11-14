@@ -50,7 +50,7 @@ Download --> [**SARMSSD-SAR-CAM**](https://drive.google.com/file/d/1UywwOEqUApOn
 
 **<details open><summary>YOLO11 Deep Learninig Experiments</summary>** 
 
-Training and evaluation the **4 SARMSSD** datasets on YOLO11 algorithm & Comparing performance results.</details>
+Training and evaluating the **4 SARMSSD** datasets using YOLO11 algorithm & Comparing performance results.</details>
 
 | Model                                                                                       | Dataset         | size<br><sup>(pixels) | Precision | Recall | mAP<sup>test<br>0.50 | mAP<sup>test<br>0.50:0.95 | params<br><sup>(M) |
 | --------------------------------------------------------------------------------------------|-----------------|-----------------------|-----------|--------|----------------------|---------------------------|--------------------|
